@@ -1,0 +1,24 @@
+.sb_container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: stretch;
+}
+.sb_input {
+  width: 70%;
+  margin-right: 10px;
+  border-radius: 0.5rem;
+}
+button.sb_button {
+  cursor: pointer;
+  margin-bottom: 0;
+  border-radius: 0.5rem;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+button.sb_button:hover {
+  border: 1px solid transparent;
+  background: rgb(255, 152, 0);
+  color: rgb(255, 255, 255);
+}

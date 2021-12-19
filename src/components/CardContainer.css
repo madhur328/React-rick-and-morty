@@ -1,0 +1,14 @@
+.card-container {
+  padding: 4.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: rgb(36, 40, 47);
+  min-height: calc(50vh - 60px);
+}
+@media (max-width: 767px) {
+  .card-container {
+    padding: 2rem 0;
+  }
+}
